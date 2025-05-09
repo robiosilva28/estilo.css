@@ -1,498 +1,126 @@
-html > body:nth-child(2) > div:nth-child(2) > main:nth-child(2) > div:nth-child(1) > div:nth-child(1) > div:nth-child(2) > div:nth-child(1) {
-border-top-left-radius : 0px;
-border-top-right-radius : 0px;
-border-bottom-right-radius : 0px;
-border-bottom-left-radius : 0px;
-background-color : rgb(22, 23, 23);
-border-top-color : rgb(36, 39, 42);
-border-bottom-color : rgb(46, 47, 47);
-}
-html > body:nth-child(2) > div:nth-child(2) > main:nth-child(2) > div:nth-child(1) > div:nth-child(1) > div:nth-child(2) > div:nth-child(2) > div:nth-child(62) {
-border-top-left-radius : 6px;
-border-top-right-radius : 6px;
-border-bottom-right-radius : 6px;
-border-bottom-left-radius : 6px;
-color : rgb(46, 47, 47);
-background-color : rgb(46, 47, 47);
-}
-html > body:nth-child(2) > div:nth-child(2) > main:nth-child(2) > div:nth-child(1) > div:nth-child(1) > div:nth-child(2) > div:nth-child(3) {
-border-top-left-radius : 20px;
-border-top-right-radius : 20px;
-border-bottom-right-radius : 20px;
-border-bottom-left-radius : 20px;
-background-color : rgb(36, 38, 38);
-}
-html > body:nth-child(2) > div:nth-child(2) > main:nth-child(2) > div:nth-child(1) > div:nth-child(1) > div:nth-child(2) > div:nth-child(3) > div:nth-child(2) > textarea:nth-child(1) {
-color : rgb(255, 255, 255);
-background-color : rgb(255, 255, 255);
-font-weight : 400;
-box-shadow : rgb(255, 255, 255) 0px 0px 0px;
-border-top-color : rgb(255, 255, 255);
-border-right-color : rgb(255, 255, 255);
-border-bottom-color : rgb(255, 255, 255);
-border-left-color : rgb(255, 255, 255);
-}
-html > body:nth-child(2) > div:nth-child(2) > main:nth-child(2) > div:nth-child(1) > div:nth-child(1) > div:nth-child(2) {
-background-image : url("data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAkGBxMTEhUTExMWFhUXFxcaGBUYFxgXFxgYHRcXFxUdGhcYHSggGxolHRcXITEhJSorLi4uFx8zODMtNygtLisBCgoKBQUFDgUFDisZExkrKysrKysrKysrKysrKysrKysrKysrKysrKysrKysrKysrKysrKysrKysrKysrKysrK//AABEIASwAqAMBIgACEQEDEQH/xAAYAAEBAQEBAAAAAAAAAAAAAAABAgADB//EAC4QAAECBAQGAwEAAgMBAAAAAAEAEQIhMUFRYXHwEoGRobHBA9Hx4RMyQmKSIv/EABQBAQAAAAAAAAAAAAAAAAAAAAD/xAAUEQEAAAAAAAAAAAAAAAAAAAAA/9oADAMBAAIRAxEAPwDyQDBtUABnqiBga91RAkX6ICI1GhnvJEIkaqoY3PVBN6Gm92QWd6rm5ejkWH9WhEwMP367qoom1QaKGSkm7MqeLf6h3GewgI4nCuMdVBgJqyqIz8dHdAQg7n3KYnoeqkk/6jeJT8hYMEGYmRHNLGe+nJHyRSyN7jklzeSDQ3q3fOqzNdETYU5bK0UwDvVAA1Bbmf1IMnFrPt0iEYy6DsiCCb22EGIE3x+kwtbfNYicuqwAuOs0AY8uT/SyYXawKEG4bmZWhEyGkswoJXy6ogIDYTnidugqGEMQNFPBZ/5yVU6dgtDFOg9yxQHC0scFoBM7u3oJgcV2URQmo3v0gAWOGJeqT/tvA/QWhisB5+loABXogIhM8r0KqIT19U9rEiedd8+63CadEBCC7PJPBcV6rQvh1/iwqxPSSDQmRlQ07o4pJgm7SCzGmDTxKAAFx7zuhpVds1gZd330VmXNBJIBoqu85rmQb7xnnPqkRT877IDnLe3T8Ypr6ZMRFepdkkiTX697oNJsCZyQpIbulA8Ip98lUWAA9BEV58lMBNK3f2gwD1yyY3TWYrRNpekzlTP2gIRN581iTmkkOFL23WSA4T+96kqhFpyWfHpdbl7QB0dEU5hqX7LGdDy7JiiHNAx6rQv+o47VI+kZDUoLBMu5C5AEdeSYiRfVMPrvsILIzZDiQBHYqSGk/JVCDc71QMzptlMUOA3ruqTQvNbi67KAAtdhtymomkRYoe/ZACEC/IbdZR16sFkFvcBaKHLVTACx3ifar43QMHbBTBLd6LG/6FQIYeEBHBgj4hdaD14R/k/PPtAQkl22dOiZkpILlsPxRCXnLW6CwP8A67pe1eiiGj0I8JMpB990FceA3oEOxfFYDI5WCpmGO80ExRC1SpJY7zK6CGdAiFiaU/EEGWZrvfpIJadKekipz3vRMQYMgCRR5N1WgBbbpBYIdmn2dARSliaqgJEXWZ9OiYMUHMaPv+LKoWuOvp0oNDFm+k1odOpXNycTvor+OWXlAEXx18BVA7NTNYOywZzOqBAARwTyt2+lMMJ0lX9TE4AYoGINdrLPPLH+qDCT0dXDMIEMZ+VoSaEc1LVc5OsQ9/tAs46yotFCM+p+0w31XEjDdkHVmI5/a0TtWaiGc7y/qsQEU2EGEMprQQa81iAC6I7oK4q0ewW4b0N1EZaWyt8c2fNkFNMToKKD8hYETFwre7fikfGDZj2QXU0pdCmGLddjNZAnV+f0ji2Akzc9M2miIa86IJfTnPzRdOEsXP8AEQw5jyepSYRr3QbiLURkZ57zSBYohIqEAID/AHf0kiTP0+gtGaeN80FhU9EFS5T65rRF7b1RBcf3cmR8cRdz1tJ0DHDPkmAGzeVmuZmy0JAy1QHAHz3ZETu34yeCb5rRRlnZBoIcQ06LCta0QIgWcTsrDUaiCRDjbdVojeg9XT8bFiAuX+OKoNcyEHQGd2z+0wwMcmU/E5cFbgflRBQFr2KyajdVkHOKLqKJ+PAzfZVOMn7oEAn55IMGI5drJAkRdTCAQ3hMQwr/AFBgJ0bOqo1quV6z3irDWqzoCISKhi77zqugtN3Rwmk+skGhDEb3UJMQJtLyiGG0s2rzSRrydBIjqw3ndIiLV6X+lj8b30ofKWbUoGGQ7LnFQVkN7zVFqFXCgiFpa/36TFECJv4RxHlTN0xVAZ0GhhbXHwkRNt0E1Gv9WoJfxAQhi5u8kmHM4rQF6oEE3feGiDBpM4eaVoo573+rIMXlTLBaQramtykB6yZpBbhGnKRQDuRrzotDDIjeAVENPDCSxhvzbkyCHm8hvBVDIUyGNZJhL5Y5qQNSxf0goQXf6TCVMVaFuX2mCE6ac/tARQh2us82/Vo5b9rQ2Z+qDRQzkFcMOSidyexHhAdxV8MkCIWxrfA/1kQ6M1cDyxVyopJEsH9INwXp5RxPI6YHeao/IKV3moekmBlyQWSNcf1TBFe26IE9ALUuq+Q0NQgARSjpjia0sVAHUt5pyVxFjIEk/wB+kHJj132l0WVmKLIZX5LIOkODIhFmkERORI+v6mGbizDugjiOO9UjEF+vsrMab3yRwh57pv8AEFQ13l9Ko2uo+MT3yRFMtqg6EPeiCBRpKYXc794umEPljmgYiC2DH0s0jrvsjhypLwk6HkyCI4JeN6qviidjl7/i3X66IhcU5dzdBRJ+t91IEjl62Em7VaZUyI5dcNUD/jNJM75rQwirHILqsg5fHI0qPEvpY3Y57zl3WdpgTP6kBoa8/CBEWlUE35Pb+laE1G8EAYV6yQPDiN5rKiZ1+kIMfjGfVYUkAt/lDSmp4jXG28vCB+KKWWOPJYxbdin5Lb3dYG0tEGYHJrLDMMcf6tD9j69rGZ0QHCbb7IhuFUbczg58JYGaDGGn4gBhIcljPfhY1zN0G1OP8ZBNGtL9dSYTJuf7VEMc2rbVB1Y2RwtPf6gQ1aQogmz75lB0EloS4U8QMqHBaEtLv4QRDFTKWLjlRVxCrTn11WhIabS/FoKyAbSeSDcNTeWVKLQkfk26KYiAz/eq6OXyQHJZYg3i8BZBUhkpM/tErDn4WizLEhvzNA/JUby9p4Tip4JS5eUn5MignhAfI+lbF1BHFZWGJfkg5RRtMFzJxz6rfFaTHHyNVZvMfVkiFmnpu6AjIB2E8VhWSmMEmVvR/VdZIJiEnPMWPJUYwoIbGVFUMJzbv+IEOud7TtUK+G1kA181uyBEQnlooNWA0yzVGLGedMvaSLUQH/nykwykWzXNulNJtJWZA5HflBn84TxVcOJPjwtSYoojJkaZIGEirXlisiORl2qsgeGgKYzMI+SEnDLVVQAckAJalbhBv4Tw/wBxKgiTiWb+QgeIf0lVDFvFTA7SbT+qhCG1QSw7zf0k5b1WexE/Kn4oseu9zQaKV/LDoiGswqjnQqQZ1++gQXOj5/amOJ2w9qxipMRyQb46b3iiGGZfoHZaOKelM1QJYETQQRO/11V8UhOfVVULmIq436BAxQtPw36tDSnKqTYG/wCocB2r7QJnK8nCmMuKF0xREVYjJLHHf4g3yQOyFsNbe1kGLkaXxWhq7Vo/cLQl5A+ysX/5TGOaCzEMQolRw27rRlpUu53oq46P0qggH8uVc/5dRFG9P72UiuG+aCyeuGSp2sgsQ5yURxVoJGWlEHQEFYGRkphFeXgJhNMEGggz7lAqxnfO32hw9BlJWDKSAMQ52xUOXJHh8LpjhtiOQx3kmKKWAo+GiCXeb0woyoQTL32VoITywytJLtJx5PQIEEoI53WaTN1WhtKjgoNFOT2pmiE3wpzb7QCAZCfQbknhYTv2QIewbX+LLoVkHOKIS1UxgGmuRSCMJ6LQxOTPeygqIs11zjr0356KgHm3X7RFaj4eeyCnNmkoivQa/awp22B9phgx7fdUG+OGRz9z9phglKRbvzSZUCzbCDAsT1KkQnT0nEDc8eSSTkO6AEjSbWoQmKVAgHInp4WEIKAGBm6YIGNloSHP0scnzlVAku0pOji/gCMfHjwtHA9ED8USTfr6PpRBIVD9QEiG2y6CxDQmqmc+y2QwRxuHfp/UDCLgclkQeQlA6FYQIMOnMIAtkfX2g0LTam+2a0EN7W9rGGbk+uqxac3dBoiat97yVPJZzgoMTNuuBQUAaoHcv5VSHNSMhzKDRCVJ3ZY23ikCeimEiYZt/iDE4nl+KoAx6e98ljDp0WLiiCCSwbAqvjiM1g1xRIyh8faBvyXP5JW60VifSiwFHDMZdEAT/wBkmVG+0ATrV/Mt5Iz1lZ0FEvy/oUmGHf0tBlT0N91UZaaDM+2WQSe1EoGGimE15+T9KhEMVPx+h9+0GAORo+OaqMC4XMgPUSXUIORDEYHe9FZKn5raqo2QEI6oijn46JiiuJ4qYaznkEGhicv2y37XQjBcyJ4nsFYIOoQREeus+yoiTEoIclBJ3vVB0LPmoJdwJ1yomdrbC3yQv94ICCN6CldaKgHnuqkfFOQ55SVQsTp+IBxMFt77pewWY5I6IExchuiNZ8ppiDDePtSQWzMjkg3FYN/UrRk0f7WQbmeY/iOLMb5oERe+WGavjCDQ2Cwh/bqXAndqHfhUxxCCIzOGe5LoRcKeB8CL5ohgFuv0golvPJUuMQLsLqupbyzoCHF26b/FjWRfnvFUMWmVnvIt2QLsTPlvVENaVvO81jKdX8fSOI4+AguEZdFEEVXpmJqoYrFAAAkG23hA8TWYZlHyHF+Uv6o4Gs0mqz/qp6VfzjX0gIO3PUGeioWIoyIIeXXlWyqcnIogIi8mRYrn/lexGOLeV2gF6ug0Ab6CywlZZBIiaTLCCR3uqou+2a/tHCZzQLlaIC4UhiavkqNXqgl5OwPdUbTbJHE1cVPyCR1Hoe0FgkoiLYaoB1o72RFA+DSZu6Cnnpt+yIToTQAJ+M44eDNYRPTGaAiFNPp1xjBe/Wk7/S7BmamHNPAUEwjq48/qTEHvt+yXA1wRFPXDFA8IqxGX4gOGZuV0wzAHV0PPwMcUDEDyy3NAoOj5bCvjCkYSzQPyANMKPihBhZMJBxbOiRFppg9EGJzSpNZeW3bqsgoscehQJTqtBDdytAa5H+oM0mxo82yW+MctKJhHdTFcWlLmyBML3kzS+1o4XPLwzI+SC+8U/IWYoJfUPzG6pD/3kq+MyUfNF68oESlgd9in5DSTzlqqgoo+QNDJBhDFkOTrRQYknt4VGByiKFgWQSC1ABqqgizv6URmbYrfGa5EeUFxibiuCC2E9EwwTPJaP/lp9/SCYYsvSqIteUzSyPir18haL/UIGIuOndAhm28luCfLwQp+SJpZPvog6SHNZTAZDVKD/9k=");
-}
-html > body:nth-child(2) > div:nth-child(2) > main:nth-child(2) > div:nth-child(1) > div:nth-child(1) > div:nth-child(2) > div:nth-child(1) > a:nth-child(2) {
-color : rgb(255, 255, 255);
-}
-html > body:nth-child(2) > div:nth-child(2) > main:nth-child(2) > div:nth-child(1) > div:nth-child(1) > div:nth-child(2) > div:nth-child(1) > div:nth-child(4) > ul:nth-child(2) > li:nth-child(5) {
-background-color : rgb(22, 23, 23);
-box-shadow : rgba(0, 0, 0, 0) 0px 0px 0px;
-border-top-color : rgba(36, 39, 42, 0);
-border-right-color : rgba(36, 39, 42, 0);
-border-bottom-color : rgba(36, 39, 42, 0);
-border-left-color : rgba(36, 39, 42, 0);
-}
-html > body:nth-child(2) > div:nth-child(2) > main:nth-child(2) > div:nth-child(1) > div:nth-child(1) > div:nth-child(2) > div:nth-child(2) {
-color : rgb(21, 77, 56);
-box-shadow : rgb(0, 0, 0) 0px 0px 0px;
-}
-html > body:nth-child(2) > div:nth-child(2) > main:nth-child(2) > div:nth-child(1) > div:nth-child(1) > div:nth-child(2) > div:nth-child(2) > div:nth-child(62) > div:nth-child(2) > div:nth-child(1) {
-background-color : rgba(255, 255, 255, 0);
-border-top-color : rgb(255, 255, 255);
-border-right-color : rgb(255, 255, 255);
-border-bottom-color : rgb(255, 255, 255);
-border-left-color : rgb(255, 255, 255);
-}
-html > body:nth-child(2) > div:nth-child(2) > main:nth-child(2) > div:nth-child(1) > div:nth-child(1) > div:nth-child(2) > div:nth-child(2) > div:nth-child(63) {
-color : rgb(21, 77, 56);
-background-color : rgb(46, 47, 47);
-}
-html > body:nth-child(2) > div:nth-child(2) > main:nth-child(2) > div:nth-child(1) > div:nth-child(1) > div:nth-child(2) > div:nth-child(2) > div:nth-child(63) > div:nth-child(2) > div:nth-child(1) {
-color : rgb(255, 255, 255);
-}
-html > body:nth-child(2) > div:nth-child(2) > main:nth-child(2) > div:nth-child(1) > div:nth-child(1) > div:nth-child(2) > div:nth-child(2) > div:nth-child(62) > div:nth-child(2) > div:nth-child(1) > span:nth-child(1) {
-color : rgb(255, 255, 255);
-}
-html > body:nth-child(2) > div:nth-child(2) > main:nth-child(2) > div:nth-child(1) > div:nth-child(1) > div:nth-child(2) > div:nth-child(2) > div:nth-child(59) {
-color : rgb(21, 77, 56);
-background-color : rgb(46, 47, 47);
-}
-html > body:nth-child(2) > div:nth-child(2) > main:nth-child(2) > div:nth-child(1) > div:nth-child(1) > div:nth-child(2) > div:nth-child(2) > div:nth-child(58) {
-color : rgb(46, 47, 47);
-background-color : rgb(46, 47, 47);
-}
-html > body:nth-child(2) > div:nth-child(2) > main:nth-child(2) > div:nth-child(1) > div:nth-child(1) > div:nth-child(2) > div:nth-child(2) > div:nth-child(59) > div:nth-child(2) > div:nth-child(1) {
-color : rgb(255, 255, 255);
-}
-html > body:nth-child(2) > div:nth-child(2) > main:nth-child(2) > div:nth-child(1) > div:nth-child(1) > div:nth-child(2) > div:nth-child(2) > div:nth-child(58) > div:nth-child(2) > div:nth-child(1) {
-color : rgb(255, 255, 255);
-}
-html > body:nth-child(2) > div:nth-child(2) > main:nth-child(2) > div:nth-child(1) > div:nth-child(1) > div:nth-child(2) > div:nth-child(2) > div:nth-child(53) {
-background-color : rgb(21, 77, 56);
-}
-html > body:nth-child(2) > div:nth-child(2) > main:nth-child(2) > div:nth-child(1) > div:nth-child(1) > div:nth-child(2) > div:nth-child(2) > div:nth-child(53) > div:nth-child(2) > div:nth-child(1) {
-color : rgb(255, 255, 255);
-}
-html > body:nth-child(2) > div:nth-child(2) > main:nth-child(2) > div:nth-child(1) > div:nth-child(1) > div:nth-child(2) > div:nth-child(2) > div:nth-child(52) {
-background-color : rgb(21, 77, 56);
-}
-html > body:nth-child(2) > div:nth-child(2) > main:nth-child(2) > div:nth-child(1) > div:nth-child(1) > div:nth-child(2) > div:nth-child(2) > div:nth-child(52) > div:nth-child(2) > div:nth-child(1) > span:nth-child(2) {
-color : rgb(255, 255, 255);
-}
-html > body:nth-child(2) > div:nth-child(2) > main:nth-child(2) > div:nth-child(1) > div:nth-child(1) > div:nth-child(2) > div:nth-child(2) > div:nth-child(52) > div:nth-child(2) > div:nth-child(1) {
-color : rgb(255, 255, 255);
-}
-#lcwkq {
-color : rgb(0, 75, 125);
-background-color : rgb(21, 77, 56);
-}
-html > body:nth-child(2) > div:nth-child(2) > div:nth-child(1) {
-background-color : rgb(36, 38, 38);
-box-shadow : rgb(34, 192, 100) 0px 0px 0px;
-border-right-color : rgb(46, 47, 47);
-}
-#sb-users {
-background-color : rgba(255, 255, 255, 0);
-}
-#sb-chatbot {
-box-shadow : rgb(255, 0, 0) 0px 0px 0px;
-border-top-color : rgb(255, 255, 255);
-border-right-color : rgb(255, 255, 255);
-border-bottom-color : rgb(255, 255, 255);
-border-left-color : rgb(255, 255, 255);
-}
-#sb-settings {
-color : rgb(255, 255, 255);
-}
-#sb-reports {
-color : rgb(255, 255, 255);
-}
-#sb-articles {
-color : rgb(255, 255, 255);
-}
-#sb-conversations {
-color : rgb(255, 255, 255);
-}
-html > body:nth-child(2) > div:nth-child(2) > main:nth-child(2) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > div:nth-child(2) > ul:nth-child(1) {
-color : rgb(36, 39, 42);
-background-color : rgb(22, 23, 23);
-}
-html > body:nth-child(2) > div:nth-child(2) > main:nth-child(2) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > div:nth-child(2) > ul:nth-child(1) > li:nth-child(1) {
-background-color : rgb(168, 186, 204);
-border-top-color : rgb(255, 255, 255);
-border-right-color : rgb(255, 255, 255);
-border-bottom-color : rgb(255, 255, 255);
-border-left-color : rgb(255, 255, 255);
-background-image : url("");
-}
-html > body:nth-child(2) > div:nth-child(2) > main:nth-child(2) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > div:nth-child(2) {
-background-color : rgb(22, 23, 23);
-}
-html > body:nth-child(2) > div:nth-child(2) > main:nth-child(2) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > div:nth-child(2) > ul:nth-child(1) > li:nth-child(2) > div:nth-child(1) > span:nth-child(2) {
-color : rgb(255, 255, 255);
-}
-html > body:nth-child(2) > div:nth-child(2) > main:nth-child(2) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > div:nth-child(2) > ul:nth-child(1) > li:nth-child(2) > p:nth-child(2) {
-color : rgb(255, 255, 255);
-}
-html > body:nth-child(2) > div:nth-child(2) > main:nth-child(2) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > div:nth-child(2) > ul:nth-child(1) > li:nth-child(3) > div:nth-child(1) > span:nth-child(2) {
-color : rgb(255, 255, 255);
-}
-html > body:nth-child(2) > div:nth-child(2) > main:nth-child(2) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > div:nth-child(2) > ul:nth-child(1) > li:nth-child(3) > p:nth-child(2) {
-color : rgb(255, 255, 255);
-}
-html > body:nth-child(2) > div:nth-child(2) > main:nth-child(2) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > div:nth-child(2) > ul:nth-child(1) > li:nth-child(4) > div:nth-child(1) > span:nth-child(2) {
-color : rgb(255, 255, 255);
-}
-html > body:nth-child(2) > div:nth-child(2) > main:nth-child(2) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > div:nth-child(2) > ul:nth-child(1) > li:nth-child(4) > p:nth-child(2) {
-color : rgb(242, 242, 242);
-}
-html > body:nth-child(2) > div:nth-child(2) > main:nth-child(2) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > div:nth-child(2) > ul:nth-child(1) > li:nth-child(4) > div:nth-child(1) > span:nth-child(3) > span:nth-child(1) {
-color : rgb(255, 255, 255);
-}
-html > body:nth-child(2) > div:nth-child(2) > main:nth-child(2) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > div:nth-child(2) > ul:nth-child(1) > li:nth-child(3) > div:nth-child(1) > span:nth-child(3) > span:nth-child(1) {
-color : rgb(255, 255, 255);
-}
-html > body:nth-child(2) > div:nth-child(2) > main:nth-child(2) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > div:nth-child(2) > ul:nth-child(1) > li:nth-child(2) > div:nth-child(1) > span:nth-child(3) > span:nth-child(1) {
-color : rgb(255, 255, 255);
-}
-html > body:nth-child(2) > div:nth-child(2) > main:nth-child(2) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > div:nth-child(2) > ul:nth-child(1) > li:nth-child(5) > div:nth-child(1) > span:nth-child(3) > span:nth-child(1) {
-color : rgb(255, 255, 255);
-}
-html > body:nth-child(2) > div:nth-child(2) > main:nth-child(2) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > div:nth-child(2) > ul:nth-child(1) > li:nth-child(5) > p:nth-child(2) {
-color : rgb(255, 255, 255);
-}
-html > body:nth-child(2) > div:nth-child(2) > main:nth-child(2) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > div:nth-child(2) > ul:nth-child(1) > li:nth-child(5) > div:nth-child(1) > span:nth-child(2) {
-color : rgb(255, 255, 255);
-}
-html > body:nth-child(2) > div:nth-child(2) > main:nth-child(2) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > div:nth-child(2) > ul:nth-child(1) > li:nth-child(6) > div:nth-child(1) > span:nth-child(2) {
-color : rgb(255, 255, 255);
-}
-html > body:nth-child(2) > div:nth-child(2) > main:nth-child(2) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > div:nth-child(2) > ul:nth-child(1) > li:nth-child(6) > p:nth-child(2) {
-color : rgb(255, 255, 255);
-}
-html > body:nth-child(2) > div:nth-child(2) > main:nth-child(2) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > div:nth-child(2) > ul:nth-child(1) > li:nth-child(6) > div:nth-child(1) > span:nth-child(3) > span:nth-child(1) {
-color : rgb(255, 255, 255);
-}
-html > body:nth-child(2) > div:nth-child(2) > main:nth-child(2) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > div:nth-child(2) > ul:nth-child(1) > li:nth-child(7) > div:nth-child(1) > span:nth-child(2) {
-color : rgb(255, 255, 255);
-}
-html > body:nth-child(2) > div:nth-child(2) > main:nth-child(2) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > div:nth-child(2) > ul:nth-child(1) > li:nth-child(7) > p:nth-child(2) {
-color : rgb(255, 255, 255);
-}
-html > body:nth-child(2) > div:nth-child(2) > main:nth-child(2) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > div:nth-child(2) > ul:nth-child(1) > li:nth-child(7) > div:nth-child(1) > span:nth-child(3) > span:nth-child(1) {
-color : rgb(255, 255, 255);
-}
-html > body:nth-child(2) > div:nth-child(2) > main:nth-child(2) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > div:nth-child(2) > ul:nth-child(1) > li:nth-child(8) > div:nth-child(1) > span:nth-child(3) > span:nth-child(1) {
-color : rgb(255, 255, 255);
-}
-html > body:nth-child(2) > div:nth-child(2) > main:nth-child(2) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > div:nth-child(2) > ul:nth-child(1) > li:nth-child(8) > div:nth-child(1) > span:nth-child(2) {
-color : rgb(255, 255, 255);
-}
-html > body:nth-child(2) > div:nth-child(2) > main:nth-child(2) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > div:nth-child(2) > ul:nth-child(1) > li:nth-child(8) > p:nth-child(2) {
-color : rgb(255, 255, 255);
-}
-html > body:nth-child(2) > div:nth-child(2) > main:nth-child(2) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > div:nth-child(2) > ul:nth-child(1) > li:nth-child(9) > div:nth-child(1) > span:nth-child(2) {
-color : rgb(255, 255, 255);
-}
-html > body:nth-child(2) > div:nth-child(2) > main:nth-child(2) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > div:nth-child(2) > ul:nth-child(1) > li:nth-child(9) > p:nth-child(2) {
-color : rgb(255, 255, 255);
-}
-html > body:nth-child(2) > div:nth-child(2) > main:nth-child(2) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > div:nth-child(2) > ul:nth-child(1) > li:nth-child(9) > div:nth-child(1) > span:nth-child(3) > span:nth-child(1) {
-color : rgb(255, 255, 255);
-}
-html > body:nth-child(2) > div:nth-child(2) > main:nth-child(2) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > div:nth-child(2) > ul:nth-child(1) > li:nth-child(10) > div:nth-child(1) > span:nth-child(2) {
-color : rgb(255, 255, 255);
-}
-html > body:nth-child(2) > div:nth-child(2) > main:nth-child(2) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > div:nth-child(2) > ul:nth-child(1) > li:nth-child(10) > div:nth-child(1) > span:nth-child(3) > span:nth-child(1) {
-color : rgb(255, 255, 255);
-}
-html > body:nth-child(2) > div:nth-child(2) > main:nth-child(2) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > div:nth-child(2) > ul:nth-child(1) > li:nth-child(10) > p:nth-child(2) {
-color : rgb(255, 255, 255);
-}
-html > body:nth-child(2) > div:nth-child(2) > main:nth-child(2) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) {
-background-color : rgb(22, 23, 23);
-border-bottom-color : rgb(46, 47, 47);
-}
-html > body:nth-child(2) > div:nth-child(2) > main:nth-child(2) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > p:nth-child(1) {
-color : rgb(255, 255, 255);
-}
-html > body:nth-child(2) > div:nth-child(2) > main:nth-child(2) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > div:nth-child(2) > div:nth-child(1) > i:nth-child(1) {
-color : rgb(255, 255, 255);
-}
-html > body:nth-child(2) > div:nth-child(2) > main:nth-child(2) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > div:nth-child(2) > div:nth-child(2) > i:nth-child(1) {
-color : rgb(255, 255, 255);
-}
-html > body:nth-child(2) > div:nth-child(2) > main:nth-child(2) > div:nth-child(1) > div:nth-child(1) > div:nth-child(3) > div:nth-child(1) {
-background-color : rgb(22, 23, 23);
-border-top-color : rgb(46, 47, 47);
-border-bottom-color : rgb(46, 47, 47);
-}
-html > body:nth-child(2) > div:nth-child(2) > main:nth-child(2) > div:nth-child(1) > div:nth-child(1) > div:nth-child(3) > div:nth-child(1) > div:nth-child(1) > span:nth-child(2) {
-color : rgb(255, 255, 255);
-}
-html > body:nth-child(2) > div:nth-child(2) > main:nth-child(2) > div:nth-child(1) > div:nth-child(1) > div:nth-child(2) > div:nth-child(3) > div:nth-child(5) > div:nth-child(1) > div:nth-child(1) {
-color : rgb(255, 255, 255);
-}
-html > body:nth-child(2) > div:nth-child(2) > main:nth-child(2) > div:nth-child(1) > div:nth-child(1) > div:nth-child(2) > div:nth-child(1) > div:nth-child(4) > ul:nth-child(2) > li:nth-child(1) {
-color : rgb(22, 23, 23);
-background-color : rgb(22, 23, 23);
-}
-html > body:nth-child(2) > div:nth-child(2) > main:nth-child(2) > div:nth-child(1) > div:nth-child(1) > div:nth-child(2) > div:nth-child(1) > div:nth-child(4) > ul:nth-child(2) > li:nth-child(2) {
-background-color : rgb(22, 23, 23);
-}
-html > body:nth-child(2) > div:nth-child(2) > main:nth-child(2) > div:nth-child(1) > div:nth-child(1) > div:nth-child(2) > div:nth-child(1) > div:nth-child(4) > ul:nth-child(2) > li:nth-child(2) > a:nth-child(1) > i:nth-child(1) {
-color : rgb(255, 255, 255);
-}
-html > body:nth-child(2) > div:nth-child(2) > main:nth-child(2) > div:nth-child(1) > div:nth-child(1) > div:nth-child(2) > div:nth-child(1) > div:nth-child(4) > ul:nth-child(2) > li:nth-child(3) {
-background-color : rgb(22, 23, 23);
-}
-html > body:nth-child(2) > div:nth-child(2) > main:nth-child(2) > div:nth-child(1) > div:nth-child(1) > div:nth-child(2) > div:nth-child(1) > div:nth-child(4) > ul:nth-child(2) > li:nth-child(3) > a:nth-child(1) > i:nth-child(1) {
-background-color : rgba(234, 235, 235, 0);
-}
-html > body:nth-child(2) > div:nth-child(2) > main:nth-child(2) > div:nth-child(1) > div:nth-child(1) > div:nth-child(2) > div:nth-child(1) > div:nth-child(4) > ul:nth-child(2) > li:nth-child(5) > a:nth-child(1) > i:nth-child(1) {
-color : rgb(255, 255, 255);
-}
-html > body:nth-child(2) > div:nth-child(2) > main:nth-child(2) > div:nth-child(1) > div:nth-child(1) > div:nth-child(3) > div:nth-child(2) > div:nth-child(2) {
-background-color : rgb(22, 23, 23);
-}
-html > body:nth-child(2) > div:nth-child(2) > main:nth-child(2) > div:nth-child(1) > div:nth-child(1) > div:nth-child(3) > div:nth-child(2) > div:nth-child(2) > ul:nth-child(1) > li:nth-child(1) > i:nth-child(1) {
-color : rgb(255, 255, 255);
-}
-html > body:nth-child(2) > div:nth-child(2) > main:nth-child(2) > div:nth-child(1) > div:nth-child(1) > div:nth-child(3) > div:nth-child(2) > div:nth-child(2) > ul:nth-child(1) > li:nth-child(1) > span:nth-child(2) {
-color : rgb(255, 255, 255);
-}
-html > body:nth-child(2) > div:nth-child(2) > main:nth-child(2) > div:nth-child(1) > div:nth-child(1) > div:nth-child(3) > div:nth-child(2) > div:nth-child(2) > ul:nth-child(1) > li:nth-child(1) > label:nth-child(3) {
-color : rgb(255, 255, 255);
-}
-html > body:nth-child(2) > div:nth-child(2) > main:nth-child(2) > div:nth-child(1) > div:nth-child(1) > div:nth-child(3) > div:nth-child(2) > div:nth-child(2) > ul:nth-child(1) > li:nth-child(2) > span:nth-child(2) {
-color : rgb(255, 255, 255);
-}
-html > body:nth-child(2) > div:nth-child(2) > main:nth-child(2) > div:nth-child(1) > div:nth-child(1) > div:nth-child(3) > div:nth-child(2) > div:nth-child(2) > ul:nth-child(1) > li:nth-child(2) > label:nth-child(3) {
-color : rgb(255, 255, 255);
-}
-html > body:nth-child(2) > div:nth-child(2) > main:nth-child(2) > div:nth-child(1) > div:nth-child(1) > div:nth-child(3) > div:nth-child(2) > div:nth-child(2) > ul:nth-child(1) > li:nth-child(3) > span:nth-child(2) {
-color : rgb(255, 255, 255);
-}
-html > body:nth-child(2) > div:nth-child(2) > main:nth-child(2) > div:nth-child(1) > div:nth-child(1) > div:nth-child(3) > div:nth-child(2) > div:nth-child(2) > ul:nth-child(1) > li:nth-child(3) > i:nth-child(1) {
-color : rgb(255, 255, 255);
-}
-html > body:nth-child(2) > div:nth-child(2) > main:nth-child(2) > div:nth-child(1) > div:nth-child(1) > div:nth-child(3) > div:nth-child(2) > div:nth-child(2) > ul:nth-child(1) > li:nth-child(4) > i:nth-child(1) {
-color : rgb(255, 255, 255);
-}
-html > body:nth-child(2) > div:nth-child(2) > main:nth-child(2) > div:nth-child(1) > div:nth-child(1) > div:nth-child(3) > div:nth-child(2) > div:nth-child(2) > ul:nth-child(1) > li:nth-child(5) > i:nth-child(1) {
-color : rgb(255, 255, 255);
-}
-html > body:nth-child(2) > div:nth-child(2) > main:nth-child(2) > div:nth-child(1) > div:nth-child(1) > div:nth-child(3) > div:nth-child(2) > div:nth-child(2) > ul:nth-child(1) > li:nth-child(6) > i:nth-child(1) {
-color : rgb(255, 255, 255);
-}
-html > body:nth-child(2) > div:nth-child(2) > main:nth-child(2) > div:nth-child(1) > div:nth-child(1) > div:nth-child(3) > div:nth-child(2) > div:nth-child(2) > ul:nth-child(1) > li:nth-child(8) > i:nth-child(1) {
-color : rgb(255, 255, 255);
-}
-html > body:nth-child(2) > div:nth-child(2) > main:nth-child(2) > div:nth-child(1) > div:nth-child(1) > div:nth-child(3) > div:nth-child(2) > div:nth-child(2) > ul:nth-child(1) > li:nth-child(11) > i:nth-child(1) {
-color : rgb(255, 255, 255);
-}
-html > body:nth-child(2) > div:nth-child(2) > main:nth-child(2) > div:nth-child(1) > div:nth-child(1) > div:nth-child(3) > div:nth-child(2) > div:nth-child(2) > ul:nth-child(1) > li:nth-child(12) > i:nth-child(1) {
-color : rgb(255, 255, 255);
-}
-html > body:nth-child(2) > div:nth-child(2) > main:nth-child(2) > div:nth-child(1) > div:nth-child(1) > div:nth-child(3) > div:nth-child(2) > div:nth-child(2) > ul:nth-child(1) > li:nth-child(14) > i:nth-child(1) {
-color : rgb(255, 255, 255);
-}
-html > body:nth-child(2) > div:nth-child(2) > main:nth-child(2) > div:nth-child(1) > div:nth-child(1) > div:nth-child(3) > div:nth-child(2) > div:nth-child(2) > ul:nth-child(1) > li:nth-child(15) > i:nth-child(1) {
-color : rgb(255, 255, 255);
-}
-html > body:nth-child(2) > div:nth-child(2) > main:nth-child(2) > div:nth-child(1) > div:nth-child(1) > div:nth-child(3) > div:nth-child(2) > div:nth-child(2) > ul:nth-child(1) > li:nth-child(16) > i:nth-child(1) {
-color : rgb(255, 255, 255);
-}
-html > body:nth-child(2) > div:nth-child(2) > main:nth-child(2) > div:nth-child(1) > div:nth-child(1) > div:nth-child(3) > div:nth-child(2) > div:nth-child(2) > ul:nth-child(1) > li:nth-child(17) > i:nth-child(1) {
-color : rgb(255, 255, 255);
-}
-html > body:nth-child(2) > div:nth-child(2) > main:nth-child(2) > div:nth-child(1) > div:nth-child(1) > div:nth-child(3) > div:nth-child(2) > div:nth-child(2) > ul:nth-child(1) > li:nth-child(18) > i:nth-child(1) {
-color : rgb(255, 255, 255);
-}
-html > body:nth-child(2) > div:nth-child(2) > main:nth-child(2) > div:nth-child(1) > div:nth-child(1) > div:nth-child(3) > div:nth-child(2) > div:nth-child(2) > ul:nth-child(1) > li:nth-child(18) > span:nth-child(2) {
-color : rgb(255, 255, 255);
-}
-html > body:nth-child(2) > div:nth-child(2) > main:nth-child(2) > div:nth-child(1) > div:nth-child(1) > div:nth-child(3) > div:nth-child(2) > div:nth-child(2) > ul:nth-child(1) > li:nth-child(17) > span:nth-child(2) {
-color : rgb(255, 255, 255);
-}
-html > body:nth-child(2) > div:nth-child(2) > main:nth-child(2) > div:nth-child(1) > div:nth-child(1) > div:nth-child(3) > div:nth-child(2) > div:nth-child(2) > ul:nth-child(1) > li:nth-child(4) {
-color : rgb(255, 255, 255);
-}
-html > body:nth-child(2) > div:nth-child(2) > main:nth-child(2) > div:nth-child(1) > div:nth-child(1) > div:nth-child(3) > div:nth-child(2) > div:nth-child(2) > ul:nth-child(1) > li:nth-child(4) > span:nth-child(2) {
-color : rgb(255, 255, 255);
-}
-html > body:nth-child(2) > div:nth-child(2) > main:nth-child(2) > div:nth-child(1) > div:nth-child(1) > div:nth-child(3) > div:nth-child(2) > div:nth-child(2) > ul:nth-child(1) > li:nth-child(5) > span:nth-child(2) {
-color : rgb(255, 255, 255);
-}
-html > body:nth-child(2) > div:nth-child(2) > main:nth-child(2) > div:nth-child(1) > div:nth-child(1) > div:nth-child(3) > div:nth-child(2) > div:nth-child(2) > ul:nth-child(1) > li:nth-child(5) > label:nth-child(3) > span:nth-child(1) {
-color : rgb(255, 255, 255);
-}
-html > body:nth-child(2) > div:nth-child(2) > main:nth-child(2) > div:nth-child(1) > div:nth-child(1) > div:nth-child(3) > div:nth-child(2) > div:nth-child(2) > ul:nth-child(1) > li:nth-child(6) {
-color : rgb(255, 255, 255);
-}
-html > body:nth-child(2) > div:nth-child(2) > main:nth-child(2) > div:nth-child(1) > div:nth-child(1) > div:nth-child(3) > div:nth-child(2) > div:nth-child(2) > ul:nth-child(1) > li:nth-child(6) > span:nth-child(2) {
-color : rgb(255, 255, 255);
-}
-html > body:nth-child(2) > div:nth-child(2) > main:nth-child(2) > div:nth-child(1) > div:nth-child(1) > div:nth-child(3) > div:nth-child(2) > div:nth-child(2) > ul:nth-child(1) > li:nth-child(8) > span:nth-child(2) {
-color : rgb(255, 255, 255);
-}
-html > body:nth-child(2) > div:nth-child(2) > main:nth-child(2) > div:nth-child(1) > div:nth-child(1) > div:nth-child(3) > div:nth-child(2) > div:nth-child(2) > ul:nth-child(1) > li:nth-child(8) > label:nth-child(3) {
-color : rgb(255, 255, 255);
-}
-html > body:nth-child(2) > div:nth-child(2) > main:nth-child(2) > div:nth-child(1) > div:nth-child(1) > div:nth-child(3) > div:nth-child(2) > div:nth-child(2) > ul:nth-child(1) > li:nth-child(9) > span:nth-child(2) {
-color : rgb(255, 255, 255);
-}
-html > body:nth-child(2) > div:nth-child(2) > main:nth-child(2) > div:nth-child(1) > div:nth-child(1) > div:nth-child(3) > div:nth-child(2) > div:nth-child(2) > ul:nth-child(1) > li:nth-child(9) > label:nth-child(3) {
-color : rgb(255, 255, 255);
-}
-html > body:nth-child(2) > div:nth-child(2) > main:nth-child(2) > div:nth-child(1) > div:nth-child(1) > div:nth-child(3) > div:nth-child(2) > div:nth-child(2) > ul:nth-child(1) > li:nth-child(10) > span:nth-child(2) {
-color : rgb(255, 255, 255);
-}
-html > body:nth-child(2) > div:nth-child(2) > main:nth-child(2) > div:nth-child(1) > div:nth-child(1) > div:nth-child(3) > div:nth-child(2) > div:nth-child(2) > ul:nth-child(1) > li:nth-child(10) > label:nth-child(3) {
-color : rgb(255, 255, 255);
-}
-html > body:nth-child(2) > div:nth-child(2) > main:nth-child(2) > div:nth-child(1) > div:nth-child(1) > div:nth-child(3) > div:nth-child(2) > div:nth-child(2) > ul:nth-child(1) > li:nth-child(11) > span:nth-child(2) {
-color : rgb(255, 255, 255);
-}
-html > body:nth-child(2) > div:nth-child(2) > main:nth-child(2) > div:nth-child(1) > div:nth-child(1) > div:nth-child(3) > div:nth-child(2) > div:nth-child(2) > ul:nth-child(1) > li:nth-child(11) > label:nth-child(3) {
-color : rgb(255, 255, 255);
-}
-html > body:nth-child(2) > div:nth-child(2) > main:nth-child(2) > div:nth-child(1) > div:nth-child(1) > div:nth-child(3) > div:nth-child(2) > div:nth-child(2) > ul:nth-child(1) > li:nth-child(12) > span:nth-child(2) {
-color : rgb(255, 255, 255);
-}
-html > body:nth-child(2) > div:nth-child(2) > main:nth-child(2) > div:nth-child(1) > div:nth-child(1) > div:nth-child(3) > div:nth-child(2) > div:nth-child(2) > ul:nth-child(1) > li:nth-child(12) > label:nth-child(3) {
-color : rgb(255, 255, 255);
-}
-html > body:nth-child(2) > div:nth-child(2) > main:nth-child(2) > div:nth-child(1) > div:nth-child(1) > div:nth-child(3) > div:nth-child(2) > div:nth-child(2) > ul:nth-child(1) > li:nth-child(14) > span:nth-child(2) {
-color : rgb(255, 255, 255);
-}
-html > body:nth-child(2) > div:nth-child(2) > main:nth-child(2) > div:nth-child(1) > div:nth-child(1) > div:nth-child(3) > div:nth-child(2) > div:nth-child(2) > ul:nth-child(1) > li:nth-child(14) > label:nth-child(3) {
-color : rgb(255, 255, 255);
-}
-html > body:nth-child(2) > div:nth-child(2) > main:nth-child(2) > div:nth-child(1) > div:nth-child(1) > div:nth-child(3) > div:nth-child(2) > div:nth-child(2) > ul:nth-child(1) > li:nth-child(15) > span:nth-child(2) {
-color : rgb(255, 255, 255);
-}
-html > body:nth-child(2) > div:nth-child(2) > main:nth-child(2) > div:nth-child(1) > div:nth-child(1) > div:nth-child(3) > div:nth-child(2) > div:nth-child(2) > ul:nth-child(1) > li:nth-child(15) > label:nth-child(3) {
-color : rgb(255, 255, 255);
-}
-html > body:nth-child(2) > div:nth-child(2) > main:nth-child(2) > div:nth-child(1) > div:nth-child(1) > div:nth-child(3) > div:nth-child(2) > div:nth-child(2) > ul:nth-child(1) > li:nth-child(16) > span:nth-child(2) {
-color : rgb(255, 255, 255);
-}
-html > body:nth-child(2) > div:nth-child(2) > main:nth-child(2) > div:nth-child(1) > div:nth-child(1) > div:nth-child(3) > div:nth-child(2) > div:nth-child(2) > ul:nth-child(1) > li:nth-child(16) > label:nth-child(3) {
-color : rgb(255, 255, 255);
-}
-html > body:nth-child(2) > div:nth-child(2) > main:nth-child(2) > div:nth-child(1) > div:nth-child(1) > div:nth-child(3) > div:nth-child(2) > div:nth-child(2) > ul:nth-child(1) > li:nth-child(17) > label:nth-child(3) {
-color : rgb(255, 255, 255);
-}
-html > body:nth-child(2) > div:nth-child(2) > main:nth-child(2) > div:nth-child(1) > div:nth-child(1) > div:nth-child(3) > div:nth-child(2) > div:nth-child(2) > ul:nth-child(1) > li:nth-child(18) > label:nth-child(3) {
-color : rgb(255, 255, 255);
-}
-html > body:nth-child(2) > div:nth-child(2) > main:nth-child(2) > div:nth-child(1) > div:nth-child(1) > div:nth-child(3) > div:nth-child(2) > div:nth-child(11) {
-background-color : rgb(22, 23, 23);
-border-top-color : rgb(46, 47, 47);
-}
-html > body:nth-child(2) > div:nth-child(2) > main:nth-child(2) > div:nth-child(1) > div:nth-child(1) > div:nth-child(3) > div:nth-child(2) > div:nth-child(11) > h3:nth-child(2) {
-color : rgb(255, 255, 255);
-}
-html > body:nth-child(2) > div:nth-child(2) > main:nth-child(2) > div:nth-child(1) > div:nth-child(1) > div:nth-child(3) > div:nth-child(2) > div:nth-child(12) {
-color : rgb(36, 39, 42);
-background-color : rgb(22, 23, 23);
-border-top-color : rgb(46, 47, 47);
-}
-html > body:nth-child(2) > div:nth-child(2) > main:nth-child(2) > div:nth-child(1) > div:nth-child(1) > div:nth-child(3) > div:nth-child(2) > div:nth-child(12) > h3:nth-child(2) {
-color : rgb(255, 255, 255);
-}
-html > body:nth-child(2) > div:nth-child(2) > main:nth-child(2) > div:nth-child(1) > div:nth-child(1) > div:nth-child(3) {
-border-left-color : rgb(46, 47, 47);
-}
-html > body:nth-child(2) > div:nth-child(2) > main:nth-child(2) > div:nth-child(1) > div:nth-child(1) > div:nth-child(3) > div:nth-child(2) > div:nth-child(13) {
-background-color : rgb(22, 23, 23);
-border-top-color : rgb(46, 47, 47);
-}
-html > body:nth-child(2) > div:nth-child(2) > main:nth-child(2) > div:nth-child(1) > div:nth-child(1) > div:nth-child(3) > div:nth-child(2) > div:nth-child(13) > h3:nth-child(1) {
-color : rgb(255, 255, 255);
-}
-html > body:nth-child(2) > div:nth-child(2) > main:nth-child(2) > div:nth-child(1) > div:nth-child(1) > div:nth-child(3) > div:nth-child(2) > div:nth-child(13) > div:nth-child(2) > a:nth-child(1) {
-color : rgb(255, 255, 255);
-}
-html > body:nth-child(2) > div:nth-child(2) > main:nth-child(2) > div:nth-child(1) > div:nth-child(1) > div:nth-child(3) > div:nth-child(2) > div:nth-child(13) > div:nth-child(2) > a:nth-child(2) {
-color : rgb(255, 255, 255);
-}
-html > body:nth-child(2) > div:nth-child(2) > main:nth-child(2) > div:nth-child(1) > div:nth-child(1) > div:nth-child(3) > div:nth-child(2) {
-background-color : rgb(22, 23, 23);
-}
-html > body:nth-child(2) > div:nth-child(2) > main:nth-child(2) > div:nth-child(1) > div:nth-child(1) > div:nth-child(2) > div:nth-child(2) > div:nth-child(64) {
-background-color : rgb(21, 77, 56);
-}
-html > body:nth-child(2) > div:nth-child(2) > main:nth-child(2) > div:nth-child(1) > div:nth-child(1) > div:nth-child(2) > div:nth-child(2) > div:nth-child(65) {
-background-color : rgb(21, 77, 56);
-}
-html > body:nth-child(2) > div:nth-child(2) > main:nth-child(2) > div:nth-child(1) > div:nth-child(1) > div:nth-child(2) > div:nth-child(2) > div:nth-child(65) > div:nth-child(2) > div:nth-child(1) {
-color : rgb(255, 255, 255);
-}
-html > body:nth-child(2) > div:nth-child(2) > main:nth-child(2) > div:nth-child(1) > div:nth-child(1) > div:nth-child(2) > div:nth-child(2) > div:nth-child(64) > div:nth-child(2) > div:nth-child(1) {
-color : rgb(255, 255, 255);
-}
-html > body:nth-child(2) > div:nth-child(2) > main:nth-child(2) > div:nth-child(1) > div:nth-child(1) > div:nth-child(2) > div:nth-child(2) > div:nth-child(61) {
-background-color : rgb(21, 77, 56);
-}
-html > body:nth-child(2) > div:nth-child(2) > main:nth-child(2) > div:nth-child(1) > div:nth-child(1) > div:nth-child(2) > div:nth-child(2) > div:nth-child(61) > div:nth-child(2) > div:nth-child(1) {
-color : rgb(255, 255, 255);
-}
-html > body:nth-child(2) > div:nth-child(2) > main:nth-child(2) > div:nth-child(1) > div:nth-child(1) > div:nth-child(2) > div:nth-child(2) > div:nth-child(61) > div:nth-child(2) > div:nth-child(2) > span:nth-child(2) {
-color : rgb(255, 255, 255);
-}
-html > body:nth-child(2) > div:nth-child(2) > main:nth-child(2) > div:nth-child(1) > div:nth-child(1) > div:nth-child(2) > div:nth-child(2) > div:nth-child(63) > div:nth-child(2) > div:nth-child(2) > span:nth-child(2) {
-color : rgb(255, 255, 255);
-}
-html > body:nth-child(2) > div:nth-child(2) > main:nth-child(2) > div:nth-child(1) > div:nth-child(1) > div:nth-child(2) > div:nth-child(1) > div:nth-child(5) {
-color : rgb(255, 255, 255);
-}
-html > body:nth-child(2) > div:nth-child(2) > main:nth-child(2) > div:nth-child(1) > div:nth-child(1) > div:nth-child(2) > div:nth-child(2) > div:nth-child(62) > div:nth-child(2) > div:nth-child(2) > span:nth-child(2) {
-color : rgb(255, 255, 255);
-}
-html > body:nth-child(2) > div:nth-child(2) > main:nth-child(2) > div:nth-child(1) > div:nth-child(1) > div:nth-child(2) > div:nth-child(2) > div:nth-child(64) > div:nth-child(2) > div:nth-child(2) > span:nth-child(2) {
-color : rgb(255, 255, 255);
-}
-html > body:nth-child(2) > div:nth-child(2) > main:nth-child(2) > div:nth-child(1) > div:nth-child(1) > div:nth-child(2) > div:nth-child(2) > div:nth-child(65) > div:nth-child(2) > div:nth-child(2) > span:nth-child(2) {
-color : rgb(255, 255, 255);
-}
-html > body:nth-child(2) > div:nth-child(2) > main:nth-child(2) > div:nth-child(1) > div:nth-child(1) > div:nth-child(2) > div:nth-child(2) > div:nth-child(60) {
-background-color : rgb(21, 77, 56);
-}
-html > body:nth-child(2) > div:nth-child(2) > main:nth-child(2) > div:nth-child(1) > div:nth-child(1) > div:nth-child(2) > div:nth-child(2) > div:nth-child(60) > div:nth-child(2) > div:nth-child(1) {
-color : rgb(255, 255, 255);
-}
-html > body:nth-child(2) > div:nth-child(2) > main:nth-child(2) > div:nth-child(1) > div:nth-child(1) > div:nth-child(2) > div:nth-child(2) > div:nth-child(60) > div:nth-child(2) > div:nth-child(2) > span:nth-child(2) {
-color : rgb(255, 255, 255);
-}
-html > body:nth-child(2) > div:nth-child(2) > main:nth-child(2) > div:nth-child(1) > div:nth-child(1) > div:nth-child(2) > div:nth-child(2) > div:nth-child(62) > i:nth-child(3) {
-color : rgb(46, 47, 47);
-}
-html > body:nth-child(2) > div:nth-child(2) > main:nth-child(2) > div:nth-child(1) > div:nth-child(1) > div:nth-child(2) > div:nth-child(2) > div:nth-child(63) > i:nth-child(3) {
-color : rgb(46, 47, 47);
-}
-html > body:nth-child(2) > div:nth-child(2) > main:nth-child(2) > div:nth-child(1) > div:nth-child(1) > div:nth-child(2) > div:nth-child(2) > div:nth-child(64) > i:nth-child(3) {
-color : rgb(32, 50, 43);
-}
-html > body:nth-child(2) > div:nth-child(2) > main:nth-child(2) > div:nth-child(1) > div:nth-child(1) > div:nth-child(2) > div:nth-child(2) > div:nth-child(59) > i:nth-child(3) {
-color : rgb(46, 47, 47);
-}
-html > body:nth-child(2) > div:nth-child(2) > main:nth-child(2) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > p:nth-child(1) > span:nth-child(1) {
-color : rgb(255, 255, 255);
-background-color : rgba(255, 255, 255, 0);
+/* COR PRIMÁRIA: Verde escuro no lugar do azul padrão */
+.sb-btn,
+a.sb-btn,
+div ul.sb-menu li:hover,
+.sb-select ul li:hover,
+.sb-timetable .sb-custom-select span:hover,
+.daterangepicker .ranges li.active,
+.daterangepicker td.active,
+.daterangepicker td.active:hover {
+  background-color: #154d38; /* Verde escuro */
+}
+
+/* BORDAS E REALCES EM VERDE ESCURO */
+.sb-input > input:focus,
+.sb-input > input.sb-focus,
+.sb-input > select:focus,
+.sb-input > select.sb-focus,
+.sb-input > textarea:focus,
+.sb-input > textarea.sb-focus,
+.sb-menu-wide ul li.sb-active,
+.sb-tab > .sb-nav > ul li.sb-active,
+.sb-btn-icon:hover,
+.sb-table input[type="checkbox"]:checked,
+.sb-table input[type="checkbox"]:hover,
+.plans-box > div:hover h3,
+.plans-box > div:hover h4,
+.plans-box > div:hover p,
+.plans-box > div.sb-active h3,
+.plans-box > div.sb-active h4,
+.plans-box > div.sb-active p {
+  border-color: #154d38;
+}
+
+/* TEXTOS E LINKS EM VERDE ESCURO */
+.sb-admin-box .sb-bottom div + .sb-btn-login-box,
+.sb-admin-box .sb-bottom div + .btn-registration-box,
+.sb-admin-box .btn-cancel-reset-password,
+.disclaimer a,
+.sb-admin > .sb-header > .sb-admin-nav > div > a:hover,
+.sb-admin > .sb-header > .sb-admin-nav > div > a.sb-active,
+.sb-admin > .sb-header > .sb-admin-nav-right .sb-account .sb-menu li:hover,
+.sb-admin > .sb-header > .sb-admin-nav-right .sb-account .sb-menu li.sb-active:hover,
+.sb-select p:hover,
+div ul.sb-menu li.sb-active:not(:hover),
+.sb-select ul li.sb-active:not(:hover),
+.sb-search-btn > i:hover,
+.sb-search-btn.sb-active i,
+.sb-menu-wide ul li.sb-active,
+.sb-menu-wide ul li:hover,
+.sb-tab > .sb-nav > ul li.sb-active,
+.sb-tab > .sb-nav > ul li:hover,
+.sb-btn-icon:hover,
+.sb-loading:not(.sb-btn):before,
+.sb-setting input[type="checkbox"]:checked:before,
+.sb-language-switcher > i:hover,
+.sb-languages-box .sb-main > div:hover,
+.sb-setting.sb-type-upload-image .image:hover:before,
+.sb-setting [data-type="upload-image"] .image:hover:before,
+.sb-dialog-box .sb-title,
+.plans-box > div:hover h3,
+.plans-box > div:hover h4,
+.plans-box > div:hover p,
+.plans-box > div.sb-active h3,
+.plans-box > div.sb-active h4,
+.plans-box > div.sb-active p {
+  color: #154d38;
+}
+
+/* INPUTS, HOVERS, BORDAS E SOMBRAS */
+.sb-search-btn > input:focus,
+.sb-search-btn > input,
+.sb-input-image .image:hover,
+.sb-setting input:focus,
+.sb-setting select:focus,
+.sb-setting textarea:focus,
+.sb-timetable > div > div > div:hover,
+.plans-box > div:hover,
+.plans-box > div.sb-active,
+.sb-setting.sb-type-upload-image .image:hover {
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+  border-color: #154d38;
+}
+
+/* OPÇÕES ATIVAS COM CAIXA DE SELEÇÃO IMAGENS */
+.sb-setting.sb-type-select-images .input > div:hover,
+.sb-setting.sb-type-select-images .input > div.sb-active:not(.sb-icon-close) {
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+  border-color: #154d38;
+  color: #154d38;
+}
+
+/* BOTÕES ESCUROS */
+.sb-area-settings .sb-tab .sb-btn:hover,
+.sb-btn-white:hover,
+.sb-input .sb-btn:hover {
+  background-color: #154d38;
+  border-color: #154d38;
+}
+
+/* EFEITO DE HOVER MAIS DISCRETO */
+.sb-btn-icon:hover,
+.sb-table tr:hover td,
+.sb-tab .sb-content textarea[readonly] {
+  background-color: rgba(255, 255, 255, 0.03);
+}
+
+/* ÍCONES ATIVOS (com força!) */
+#chat-sb-icons .input > .sb-active:not(.sb-icon-close),
+#chat-sb-icons .input > div:not(.sb-icon-close):hover {
+  background-color: #154d38 !important;
+}
+
+/* SCROLLBAR AO HOVER */
+.sb-admin .sb-top-bar > div:first-child > ul::-webkit-scrollbar-thumb:hover,
+.sb-area-settings > .sb-tab > .sb-nav::-webkit-scrollbar-thumb:hover,
+.sb-area-reports > .sb-tab > .sb-nav::-webkit-scrollbar-thumb:hover,
+.sb-dialog-box pre::-webkit-scrollbar-thumb:hover,
+.sb-horizontal-scroll::-webkit-scrollbar-thumb:hover {
+  background: #154d38;
+}
+
+/* BOTÃO COM HOVER MAIS ESCURO */
+.sb-btn:hover,
+a.sb-btn:hover {
+  background-color: #103e2d;
 }
